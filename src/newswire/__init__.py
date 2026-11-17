@@ -1,1 +1,1 @@
-"""newswire baseline (single-responsibility pipeline)."""
+"""newswire package (single-responsibility pipeline)."""
