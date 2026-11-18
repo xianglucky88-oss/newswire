@@ -8,9 +8,14 @@ def connect():
     return con
 
 def upsert(con, record):
+    data = record.data
+    # 身份归并产生的换键：删除被取代的旧主键行（幂等，键不存在时为 no-op）
+    for old in data.get("supersedes") or []:
+        if old != record.key:
+            con.execute("DELETE FROM records WHERE key=?", (old,))
     con.execute("INSERT INTO records(key,data) VALUES(?,?) "
                 "ON CONFLICT(key) DO UPDATE SET data=excluded.data",
-                (record.key, json.dumps(record.data, ensure_ascii=False)))
+                (record.key, json.dumps(data, ensure_ascii=False)))
 
 def commit(con): con.commit()
 
