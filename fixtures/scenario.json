@@ -1,0 +1,73 @@
+[
+  {
+    "id": "a-1",
+    "source": "alpha",
+    "url": "https://alpha.example/news/bridge?utm_source=rss",
+    "title": "City opens new bridge",
+    "body": "The city opened a new bridge on Monday, officials said. The bridge connects the north bank with the old town. The city opened a new bridge on Monday, officials said. The bridge connects the north bank with the old town.",
+    "published": "2026-11-01T08:00:00Z",
+    "updated": "2026-11-01T08:00:00Z"
+  },
+  {
+    "id": "b-9",
+    "source": "beta",
+    "url": "https://www.beta.example/story/bridge?utm_medium=social",
+    "title": "City opens new bridge",
+    "body": "The city opened a new bridge on Monday, officials said. The bridge connects the north bank with the old town. The city opened a new bridge on Monday, officials said. The bridge connects the north bank with the old town.",
+    "published": "2026-11-01T12:00:00Z",
+    "updated": "2026-11-01T12:00:00Z"
+  },
+  {
+    "id": "a-1",
+    "source": "alpha",
+    "url": "https://alpha.example/news/bridge",
+    "title": "City opens new bridge",
+    "body": "The city opened a new bridge on Monday, officials said. The bridge connects the north bank with the old town. The city opened a new bridge on Monday, officials said. The bridge connects the north bank with the old town.",
+    "published": "2026-11-01T08:00:00Z",
+    "updated": "2026-11-02T09:30:00Z"
+  },
+  {
+    "id": "b-9",
+    "source": "beta",
+    "url": "https://beta.example/story/bridge",
+    "title": "City opens new bridge",
+    "body": "The city opened a new bridge on Monday, officials said. The bridge connects the north bank with the old town. The city opened a new bridge on Monday, officials said. The bridge connects the north bank with the old town.",
+    "published": "2026-11-01T12:00:00Z",
+    "updated": "2026-11-03T07:15:00Z"
+  },
+  {
+    "id": "a-1",
+    "source": "alpha",
+    "url": "https://alpha.example/news/bridge",
+    "title": "City opens new bridge (updated)",
+    "body": "The city opened a new bridge on Monday, officials said. The bridge connects the north bank with the old town and will be free until 2027. The city opened a new bridge on Monday, officials said. The bridge connects the north bank with the old town and will be free until 2027.",
+    "published": "2026-11-01T08:00:00Z",
+    "updated": "2026-11-05T09:00:00Z"
+  },
+  {
+    "id": "ret-1",
+    "source": "alpha",
+    "title": "[Retracted] City opens new bridge",
+    "body": "This article has been retracted because a quote could not be verified.",
+    "published": "2026-11-06T00:00:00Z",
+    "retracted": true,
+    "retracts": "https://alpha.example/news/bridge",
+    "reason": "unverified quote"
+  },
+  {
+    "id": "a-1",
+    "source": "alpha",
+    "url": "https://alpha.example/news/bridge",
+    "title": "City opens new bridge",
+    "body": "The city opened a new bridge on Monday, officials said. The bridge connects the north bank with the old town. The city opened a new bridge on Monday, officials said. The bridge connects the north bank with the old town.",
+    "published": "2026-11-07T08:00:00Z"
+  },
+  {
+    "id": "c-3",
+    "source": "gamma",
+    "url": "https://gamma.example/ferry",
+    "title": "Ferry service expands",
+    "body": "The ferry operator said on Tuesday that two new routes will start next spring. Tickets will stay at the current price for the first year. The ferry operator said on Tuesday that two new routes will start next spring.",
+    "published": "2026-11-02T09:00:00Z"
+  }
+]
