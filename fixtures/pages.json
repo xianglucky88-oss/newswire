@@ -1,0 +1,27 @@
+{
+  "https://gnn.example/news/harbor-pact": {
+    "meta": {
+      "published": "2026-11-02T12:30:00+08:00",
+      "modified": "2026-11-02T13:05:00+08:00"
+    }
+  },
+  "https://gnn.example/news/election-night": {
+    "meta": {
+      "published": "2026-11-03T09:00:00+00:00",
+      "modified": "2026-11-05T09:00:00+00:00"
+    }
+  },
+  "https://wire.example/storm-alert": {
+    "body_date_relative": "3 hours ago"
+  },
+  "https://gnn.example/news/old-profile": {
+    "meta": {
+      "published": "2026-10-01T08:00:00+00:00",
+      "modified": "2026-11-17T10:00:00+00:00"
+    }
+  },
+  "https://daily.example/body-date": {
+    "body_date": "November 9, 2026",
+    "tz": "America/New_York"
+  }
+}

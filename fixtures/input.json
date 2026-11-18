@@ -1,34 +1,88 @@
 [
   {
-    "id": "r-001",
-    "src": "alpha",
-    "name": " Record One ",
-    "value": 10,
+    "id": "a-001",
+    "src": "GNN",
+    "title": "Harbor Pact Signed",
+    "url": "https://gnn.example/news/harbor-pact",
+    "guid": "gnn-001",
+    "rss_pubdate": "Sun, 01 Nov 2026 23:30:00 -0500",
+    "fetched_at": "2026-11-02T06:00:00Z"
+  },
+  {
+    "id": "a-002",
+    "src": "GNN",
+    "title": "Election Night Turnout",
+    "url": "https://gnn.example/news/election-night",
+    "guid": "gnn-002",
+    "rss_pubdate": "2026-11-05T09:00:00+00:00",
+    "fetched_at": "2026-11-05T10:00:00Z"
+  },
+  {
+    "id": "a-003",
+    "src": "Wire",
+    "title": "Storm Alert Issued",
+    "url": "https://wire.example/storm-alert",
+    "guid": "wire-003",
+    "fetched_at": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "a-004",
+    "src": "Wire",
+    "title": "Mystery Brief",
+    "url": "https://wire.example/mystery-brief",
+    "guid": "wire-004",
+    "fetched_at": "2026-11-15T08:00:00Z"
+  },
+  {
+    "id": "a-005",
+    "src": "GNN",
+    "title": "Old Profile, Fresh Edit",
+    "url": "https://gnn.example/news/old-profile",
+    "guid": "gnn-005",
+    "rss_updated": "2026-11-17T10:00:00+00:00",
+    "fetched_at": "2026-11-17T11:00:00Z"
+  },
+  {
+    "id": "a-006",
+    "src": "Wire",
+    "title": "Breaking Rewrite",
+    "url": "https://wire.example/breaking-rewrite",
+    "guid": "wire-006",
+    "rss_updated": "2026-11-16T09:00:00+00:00",
+    "fetched_at": "2026-11-16T10:00:00Z"
+  },
+  {
+    "id": "a-007-refetch",
+    "src": "gnn",
+    "title": "Harbor Pact Signed",
+    "url": "https://gnn.example/news/harbor-pact/",
+    "guid": "gnn-001-refetch",
+    "rss_pubdate": "Sun, 01 Nov 2026 23:30:00 -0500",
+    "fetched_at": "2026-11-02T06:05:00Z"
+  },
+  {
+    "id": "a-008",
+    "src": "GNN",
+    "title": "Late Fill Story",
+    "url": "https://gnn.example/news/late-fill",
+    "guid": "gnn-008",
+    "rss_pubdate": "2026-11-11T22:30:00+00:00",
+    "fetched_at": "2026-11-12T01:00:00Z"
+  },
+  {
+    "id": "a-009",
+    "src": "Daily",
+    "title": "Body Date Only",
+    "url": "https://daily.example/body-date",
+    "guid": "daily-009",
+    "fetched_at": "2026-11-09T20:00:00Z"
+  },
+  {
+    "id": "legacy-1",
+    "src": "Alpha",
+    "name": "Legacy Row",
+    "value": 5,
     "status": "active",
-    "ts": "2026-11-01T00:00:00Z"
-  },
-  {
-    "id": "r-002",
-    "src": "Beta",
-    "name": "Record Two",
-    "value": 20,
-    "status": "active",
-    "ts": "2026-11-02T00:00:00Z"
-  },
-  {
-    "id": "r-003",
-    "src": "alpha",
-    "name": "Record Three",
-    "value": 30,
-    "status": "sold",
-    "ts": "2026-11-03T00:00:00Z"
-  },
-  {
-    "id": "r-003",
-    "src": "alpha",
-    "name": "Record Three",
-    "value": 30,
-    "status": "sold",
-    "ts": "2026-11-03T00:00:00Z"
+    "ts": "2026-08-01T10:00:00Z"
   }
 ]
